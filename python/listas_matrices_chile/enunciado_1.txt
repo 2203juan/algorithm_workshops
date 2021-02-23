@@ -1,0 +1,60 @@
+Enunciado
+Luego de aprender mucho durante tu semestre de programación, decides crear un programa que automatice tu juego favorito: las sopas de letras
+
+Captura.PNG
+Para este ejercicio trabajarás con una lista de listas sopas que tiene el siguiente formato:
+
+sopas = [
+['P', 'O', 'P', 'F', 'C', 'E', 'N'],
+['Y', 'U', 'U', 'R', 'U', 'O', 'O'],
+['T', 'A', 'P', 'T', 'I', 'R', 'U'],
+['H', 'P', 'T', 'C', 'P', 'N', 'T'],
+['O', 'U', 'N', 'E', 'C', 'U', 'T'],
+['N', 'U', 'Y', 'A', 'U', 'P', 'T'],
+['F', 'R', 'E', 'T', 'U', 'R', 'N']
+]
+
+Nota: Puedes asumir que todas las sublistas dentro de la lista sopa tienen el mismo largo
+
+Además de la lista anterior, recibirás una lista de strings palabras que tiene el siguiente formato:
+palabras = [
+"PYTHON", 
+"PRINT",
+"OUTPUT",
+"RETURN",
+"FUNCION"
+]
+
+Puedes asumir cada palabra en palabras solo estará exactamente una vez en la sopa
+Parte A
+Para esta parte deberás definir la función buscar_horizontal_y_vertical(sopa, palabras),  la cual recibe como argumentos las listas sopa y palabras con el formato descrito anteriormente. La lista palabras contiene las palabras dentro de la sopa de letras. La función deberá encontrar todas las palabras de palabras que se encuentran de manera vertical u horizontal en la sopa de letras sopa. Luego deberá retornar una lista de listas que contenga las coordenadas de la primera letra de cada palabra encontrada. 
+
+Una coordenada se define como una lista de dos enteros, donde el primer entero es la fila en la que se encuentra la letra y el segundo entero es la columna en la que se encuentra la letra, por ejemplo, la letra A en la siguiente sopa de letras:
+
+[
+['P', 'O', 'P', 'F', 'C', 'E', 'N'],
+['Y', 'U', 'U', 'R', 'U', 'O', 'O'],
+['T', 'A', 'P', 'T', 'I', 'R', 'U'],
+['H', 'P', 'T', 'C', 'P', 'N', 'T'],
+['O', 'U', 'N', 'E', 'C', 'U', 'T'],
+['N', 'U', 'Y', 'A', 'U', 'P', 'T'],
+['F', 'R', 'E', 'T', 'U', 'R', 'N']
+]
+
+Se encuentra en las coordendas [2,1], ya que está en la fila 2 y en la columna 1 de la sopa de letras.
+
+Para el ejemplo del inicio, la palabra PYTHON y la palabra RETURN están escritas de manera vertical u horizontal. La palabra PYTHON tiene su primera letra P en las coordenadas [0,0] y la palabra RETURN tiene su primera letra R en las coordenadas [6,1]. Por lo tanto, la función buscar_horizontal_y_vertical(sopa, palabra) deberá retornar la lista: [[0,0], [6,1]]. El orden de las coordenadas no es importante, por lo tanto la función también podría haber retornado [[6,1], [0,0]].
+
+Nota: Las palabras en vertical siempre estarán escritas de arriba hacia abajo y las palabras en horizontal siempre están escritos de izquierda a derecha.
+
+ 
+
+Nota: El manejo de inputs y llamado de la función ya están hechos! Tú solo deberás definir correctamente la función. De todas formas te explicamos el input:
+
+El primer input será un entero P que representa la cantidad de filas en la sopa.
+
+Los siguientes P inputs serán las letras en su respectiva fila de la sopa, separadas por espacios.
+
+El siguiente input será un entero N que representa la cantidad de palabras en la lista de palabras.
+
+Los siguientes N inputs serán las palabras en la lista de palabras.

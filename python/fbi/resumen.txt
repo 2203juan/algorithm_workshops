@@ -1,0 +1,64 @@
+Las 3 empresas de correo más utilizadas son: hotmail,usm,gmail
+
+Los 3 dominios más utilizados son: cl,com,es
+
+Correo 1
+De: geovanior@hotmail.com
+Para: emanuel.vega@usm.cl
+Palabras peligrosas encontradas: 0
+Este correo es: Normal
+
+Correo 2
+De: gonzalezzgonzalez@gmail.con
+Para: termosolar@solar.cl
+Palabras peligrosas encontradas: 0
+Este correo es: Normal
+
+Correo 3
+De: segio.mellla@gmail.com
+Para: climatizacion@hotmail.com
+Palabras peligrosas encontradas: 0
+Este correo es: Normal
+
+Correo 4
+De: fundacionlptm@gmai.cl
+Para: taloromoxd@gmail.com
+Palabras peligrosas encontradas: puta
+Este correo es: Anormal
+
+Correo 5
+De: tecague.cl@gmail.es
+Para: ignacio.venegas@live.cl
+Palabras peligrosas encontradas: 0
+Este correo es: Normal
+
+Correo 6
+De: ubereat.kl@live.com
+Para: geovani.orrego@usm.cl
+Palabras peligrosas encontradas: 0
+Este correo es: Normal
+
+Correo 7
+De: aliexpress.china@usm.cl
+Para: gonzalo.romo@usm.cl
+Palabras peligrosas encontradas: 0
+Este correo es: Normal
+
+Correo 8
+De:gastasdhagh@hotmail.com
+Para: lanagfhagd@live.es
+Palabras peligrosas encontradas: droga,droga,drogar
+Este correo es: Anormal
+
+Correo 9
+De:tengosed@hotmail.com
+Para: ignaciooo@live.es
+Palabras peligrosas encontradas: droga,puta,matar,drogar,ahorcar
+Este correo es: Anormal
+
+Correo 10
+De:Chilexpress@hotmail.cl
+Para: gonzalo.romo@usm.cl
+Palabras peligrosas encontradas: 0
+Este correo es: Normal
+

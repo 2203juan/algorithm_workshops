@@ -1,0 +1,46 @@
+2-  Enunciado
+Este semestre finalmente te han contratado como ayudante, lamentablemente el trabajo es más duro de lo que pensabas y no te puede mantener al dia con todo el trabajo. Para ayudarte con tus labores decides automatizar parte de tu trabajo.
+
+Parte A
+Para esta parte estarás a cargo de una entrega en grupo, tu primer trabajo a automatizar es asegurarte de que todos los grupos tengan de 3 a 4 integrantes, además de revisar que todos los alumnos estén en algun grupo. Para esto se te entregan dos archivos:
+
+alumnos.txt
+Contiene en cada linea el nombre de un alumno inscrito en el curso, un ejemplo de como se podría ver el archivo es el siguiente:
+
+Pedro
+Juan
+Diego
+Roberto
+Raimundo
+Jaime
+Natalia
+Amelia
+Hector
+Isidora
+
+grupos.txt
+Contiene en cada linea el nombre del grupo y los nombres de los integrantes del mismo, estos nombres se ecuentran separado por ";", notar que en este archivo un grupo puede tener 1 o más integrantes. Un ejemplo de este archivo es el siguiente:
+
+AmongOS;Pedro;Juan;Diego
+GRUPOBACAN;Jaime;Natalia;Hector;Isidora;Roberto
+
+ 
+
+Para esta parte deberás imprimir en orden alfabético los nombres de los grupos que tengan menos de 3 o más de 4 integrantes. Luego deberás imprimir en orden alfabético los nombres de los alumnos que no son integrantes de ningún grupo. En específico tu output se debe ver de la siguiente forma:
+
+Grupos sin 3 o 4 integrantes:
+nombre_grupo_1
+nombre_grupo_2
+...
+Alumnos sin grupo:
+nombre_alumno_1
+nombre_alumno_2
+...
+
+Para los archivos de ejemplo, el output se vería de la siguiente forma:
+
+Grupos sin 3 o 4 integrantes:
+GRUPOBACAN
+Alumnos sin grupo:
+Amelia
+Raimundo

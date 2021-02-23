@@ -1,0 +1,10 @@
+Diego;6.3
+Juan;6.3
+Pedro;6.3
+Amelia;6.5
+Raimundo;6.5
+Roberto;6.5
+Hector;7.0
+Isidora;7.0
+Jaime;7.0
+Natalia;7.0

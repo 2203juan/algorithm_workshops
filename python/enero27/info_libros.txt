@@ -1,0 +1,11 @@
+ID;Estado
+1;Disponible
+1;Vendido
+1;Arrendado
+20;Dañado
+20;Dañado
+3;Disponible
+3;Disponible
+3;Disponible
+20;Dañado
+3;Arrendado

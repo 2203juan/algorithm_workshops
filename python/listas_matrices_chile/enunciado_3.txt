@@ -1,0 +1,38 @@
+Enunciado
+Este semestre finalmente te han contratado como ayudante, lamentablemente el trabajo es más duro de lo que pensabas y no te puede mantener al dia con todo el trabajo. Para ayudarte con tus labores decides automatizar parte de tu trabajo.
+
+Parte B
+Luego de arreglar los grupos de los alumnos, estos terminan sin problemas la entrega. Ahora te toca subir las notas de los alumnos. Para esto se te entregan dos archivos (Notar que ambos archivos son distintos a los de la parte A):
+
+grupos_arreglados.txt
+Contiene en cada linea el nombre del grupo y los nombres de los integrantes del mismo, estos nombres se ecuentran separado por ";", notar que en este archivo un grupo solo puede tener 3 o 4, además todos los alumnos del curso son integrantes de algún grupo. Un ejemplo de este archivo es el siguiente:
+
+AmongOS;Pedro;Juan;Diego
+GRUPOBACAN;Jaime;Natalia;Hector;Isidora
+LosCubitos;Amelia;Raimundo;Roberto
+
+ 
+
+notas_grupos.txt
+Archivo que contiene los nombres de los grupos junto con la nota que se sacaron en la entrega. Un ejemplo de este archivo es el siguiente:
+
+GRUPOBACAN;7
+AmongOS;6.3
+LosCubitos;6.5
+ 
+
+Para esta parte deberás crear el archivo notas.txt, el cual tenga los nombres de los alumnos junto a la nota que se sacaron en la entrega, la nota de cada alumno es igual a la nota que se sacó el grupo del cual es integrante. Los alumnos en este archivo deben estar ordenados de peor a mejor nota, en caso de que dos alumnos tengan la misma nota deben esta ordenados por orden alfabético. 
+
+
+Para los archivos de ejemplo, notas.txt se vería de la siguiente forma:
+
+Diego;6.3
+Juan;6.3
+Pedro;6.3
+Amelia;6.5
+Raimundo;6.5
+Roberto;6.5
+Hector;7
+Isidora;7
+Jaime;7
+Natalia;7

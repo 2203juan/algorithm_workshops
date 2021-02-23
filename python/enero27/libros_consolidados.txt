@@ -1,0 +1,4 @@
+ID;Vendidos;Arrendados;Disponibles;Dañados
+1;1;1;1;0
+3;0;1;3;0
+20;0;0;0;3

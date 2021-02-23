@@ -1,0 +1,4 @@
+Aquiles Baeza,bicicleta
+Esteban Quito,transformer,lego,polera,avenger,celular,notebook
+Elsa Payo,muñeca,pelota,patines,bicicleta,nintendo switch
+Juan Alberto,transformer,lego,polera,avenger,celular,notebook

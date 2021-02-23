@@ -1,0 +1,6 @@
+Aquiles Baeza,bicicleta
+Esteban Quito,transformer,lego,polera,avenger
+Elsa Payo,carbon
+Juan Alberto,transformer,lego,polera,avenger
+Armando Casas,bicicleta
+Elkin,carbon

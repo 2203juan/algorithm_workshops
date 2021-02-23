@@ -1,0 +1,30 @@
+def main():
+     f = open("tmp.txt","r")
+     f2 = open("ans.txt","w")
+
+     for line in f:
+          line = line.strip()
+          i = len(line) - 1
+          cont = 0
+          tmp = list()
+
+          while i > 0 and cont!=2:
+               if line[i]==",":
+                    cont +=1
+                    if cont == 1:
+                         tmp.append(".")
+               else:
+                    tmp.append(line[i])
+               i-=1
+          tmp.reverse()
+
+          line = line[0:i+1].split(",")
+          line.append(float("".join(tmp)))
+
+          for i in range(len(line)):
+               elem = line[i]
+               if i+1 == len(line):
+                    f2.write(str(elem)+"\n")
+               else:
+                    f2.write(str(elem)+",")
+main()
